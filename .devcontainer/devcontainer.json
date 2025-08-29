@@ -1,0 +1,6 @@
+{
+  "name": "Webapps-manager C++ DevBox",
+  "image": "ghcr.io/jakoch/cpp-devbox:trixie-latest",
+  //"postCreateCommand": "sudo apt update && sudo apt install -y python3-gi python3-setproctitle python3-tldextract gir1.2-gtk-3.0 gir1.2-xapp-1.0 python3-pil libglib2.0-bin debhelper"
+  "postCreateCommand": "sudo apt update && sudo apt install debhelper"
+}
